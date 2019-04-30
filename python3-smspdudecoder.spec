@@ -17,7 +17,7 @@ BuildRequires:	python3-modules >= 3.6
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
 %if %{with tests}
-BuildRequires:	python3-bitstream
+BuildRequires:	python3-bitstring
 %endif
 BuildRequires:	python3-setuptools
 
