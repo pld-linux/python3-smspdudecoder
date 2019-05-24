@@ -13,13 +13,14 @@ Group:		Libraries/Python
 Source0:	https://github.com/Qotto/smspdudecoder/archive/%{version}.tar.gz
 # Source0-md5:	d76e2a506ee62364399cc3e46de41aaf
 URL:		https://github.com/Qotto/smspdudecoder/
-BuildRequires:	python3-modules >= 3.6
+BuildRequires:	python3-modules >= 1:3.6
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
 %if %{with tests}
 BuildRequires:	python3-bitstring
 %endif
 BuildRequires:	python3-setuptools
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This library will help you to decode raw SMS data you can get from a
