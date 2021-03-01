@@ -20,6 +20,7 @@ BuildRequires:	rpmbuild(macros) >= 1.714
 BuildRequires:	python3-bitstring
 %endif
 BuildRequires:	python3-setuptools
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
