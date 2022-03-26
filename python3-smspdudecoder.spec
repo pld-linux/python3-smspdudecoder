@@ -7,7 +7,7 @@
 Summary:	SMS-PDU Decoder
 Name:		python3-%{pypi_name}
 Version:	1.1.0
-Release:	4
+Release:	5
 License:	MIT
 Group:		Libraries/Python
 Source0:	https://github.com/Qotto/smspdudecoder/archive/%{version}.tar.gz
